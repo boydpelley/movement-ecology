@@ -39,7 +39,7 @@ export const people = [
         contact: "hugo@dal.ca",
         role: "Research Associate",
         status: "current",
-        photo: require("../assets/images/people/hugo2.jpg"),
+        photo: require("../assets/images/people/Hugo2.png"),
         bio: "Hugo’s research combines ecology, physiology, and technology to better understand aquatic ecosystems and inform their management. His work focuses the impacts that environmental and anthropocentric stressors have on the movement, behaviour, and health of fish. At the MER group, Hugo contributes to student mentoring, leads lab-based experiments, and helps coordinating fieldwork teams. Through his Adjunct Faculty status at Dalhousie, Hugo also contributes by attracting additional funding for projects. Recent projects span from exploring the sub-lethal impacts of tagging in fish, to understanding the impacts of pesticide applications on non-target aquatic species. Other interests include 3D design, 3D printing, electronics, and software development (e.g., trackyverse.org). If you want to know more about Hugo’s career and work, head over to his website at hugoflavio.com!"
     },
 
@@ -182,7 +182,7 @@ export const people = [
         name: "Benjamin Wetherell",
         role: "Undergraduate research student",
         status: "current",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/benw.jpg"),
         bio: "Ben Wetherell is a 3rd year student at Dalhousie completing his bachelor's degree in Marine Biology with a certificate in aquaculture. He's currently working with Hugo Flávio on a variety of projects including TFM in Giant Floater mussels and Atlantic Whitefish respirometry. In addition to these projects he has been learning about and exploring 3D printing, electronics, acoustic telemetry, fish physiology, and field surgery techniques. Some of his favorite times in the lab have been constructing the recirculating system for the Whitefish experiments and early morning mackerel tagging adventures in St. Margaret's Bay and Canso, NS. Outside of work, Ben is a lover of the outdoors and being active. Particularly biking, running, and swimming! He also loves playing soccer and is the biggest board game nerd you will ever meet!",
     },
 
@@ -239,11 +239,19 @@ export const people = [
         photo: require("../assets/images/people/anders.jpg"),
         bio: "Anders is a former undergraduate honours student and current research technician for the movement and ecophysiology research group. His honours work focused on studying thermoregulation in sea-run brook trout in the East River of Pictou, NS. In addition to his honours research, Anders has helped with many projects and fieldwork throughout his tenure in the lab. Starting in January, Anders will begin a master’s degree at the University of British Columbia studying Eulachon movements and physiology during their spawning migration. Anders’ research interests focus on using a variety of tools to help quantify and understand aquatic animal movement. Specifically, he is interested in using acoustic telemetry to answer novel questions about movement to further our understanding and develop management strategies for aquatic species."
     },
+
+       {
+        name: "Emma Daigle",
+        role: "Honours thesis student",
+        status: "alumni",
+        photo: require("../assets/images/people/emmad.jpg"),
+        bio: "Emma completed her honour's thesis in August 2026."
+    },
      {
         name: "Madelyn Richardson",
         role: "Honours thesis student",
         status: "alumni",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/madelyn.PNG"),
         bio: "Madelyn is now a Master's of Marine Management Student at Dalhousie University."
     },
      {
