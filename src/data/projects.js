@@ -43,9 +43,10 @@ export const projects = [
     },
 
      {
-        name: "Understanding Atlantic whitefish physiology and development to inform future stocking and conservation",
+        name: "Understanding Atlantic whitefish physiology and behaviour to inform future stocking and conservation",
         date: "2026-01-01",
-        people: ["Hugo Flavio", "Ethan McCarthy", "Ben Wetherell", "Robert Lennox"],
+        people: ["Hugo Flavio", "Ava Sergio", "Emma Lunzmann-Cooke", "Ethan McCarthy", 
+          "Ben Wetherell", "Robert Lennox"],
 
         listImage: require('../assets/projects/wf1.jpg'),
         bannerImage: require('../assets/projects/wf3.JPG'),
@@ -54,7 +55,7 @@ export const projects = [
         text1: "Atlantic whitefish (Coregonus huntsmani) is Nova Scotia’s most imperilled fish species, and is certainly one of the most threatened species in Canada. A key priority in the Recovery Strategy for Atlantic whitefish is to achieve stability in the current population. Broad strategies for recovery include 1) conserving, protecting and managing the species and its habitat and 2) addressing knowledge gaps relating to the species and its habitat. The current state of knowledge about the basic biology, ecology, and physiology of Atlantic whitefish is limited, as is knowledge about how best to address current and emergent threats to survival.  Knowledge of the optimal conditions for the deposition and development of eggs, as well as the growth of larvae will be extremely valuable to future recovery and management decisions. This project will combine in-situ and laboratory approaches to vastly expand our understanding of the factors influencing Atlantic whitefish egg and larvae success, therefore advancing both the conservation of natural nursery habitats and improving the supportive breeding program.",
         
         image2: require('../assets/projects/wf1.jpg'),
-        text2: "Second block of text. Text and images swap sides each block that gets added. You can add up to 5 blocks and have colelctions up to 10. Supports video and images.",
+        text2: "",
         
         collection: [
           require('../assets/projects/wf1.jpg'),
@@ -89,19 +90,19 @@ export const projects = [
         date: "2026-01-01",
         people: ["Levi Denny", "Marin Marsala", "Caitlin Bate", "Robert Lennox"],
 
-        listImage: require('../assets/projects/debert1.jpg'),
-        bannerImage: require('../assets/projects/debert2.jpg'),
+        listImage: require('../assets/projects/bdo5.jpg'),
+        bannerImage: require('../assets/projects/bdo3.jpg'),
         
-        image1: require('../assets/projects/debert3.jpg'),
+        image1: require('../assets/projects/bdo1.jpg'),
         text1: "",
         
-        image2: require('../assets/projects/debert2.jpg'),
+        image2: require('../assets/projects/bdo2.jpg'),
         text2: "",
         
         collection: [
-          require('../assets/projects/debert1.jpg'),
-          require('../assets/projects/debert2.jpg'),
-          require('../assets/projects/debert3.jpg'),
+          require('../assets/projects/bdo1.jpg'),
+          require('../assets/projects/bdo2.jpg'),
+          require('../assets/projects/bdo3.jpg'),
         ],
     },
 

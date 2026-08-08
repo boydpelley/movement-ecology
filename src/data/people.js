@@ -18,11 +18,10 @@ export const people = [
 
     {
         name: "Boyd Pelley",
-                contact: "emmallcooke@gmail.com",
         role: "Computer Science Honours thesis student",
         status: "alumni",
         photo: require("../assets/images/people/pelley.jpg"),
-        bio: "This is an example paragraph too."
+        bio: "Boyd completed his honour's thesis in 2026."
     },
 
       {
@@ -31,7 +30,7 @@ export const people = [
         role: "Principal Investigator",
         status: "current",
         photo: require("../assets/images/people/rob-2.jpg"),
-        bio: "Professor"
+        bio: "Rob Lennox is a Professor in the Dalhousie University Department of Biology and PI of the Movement and Ecophysiology Research Group, started in 2023. Dr. Lennox is also appointed as Scientific Director of Ocean Tracking Network, one of six Major Research Facilities in Canada. MER researchers use a variety of animal tagging and tracking tools to study health and performance of wild fish in the context of conservation and sustainable management. The research group is supported by grants from Fisheries and Oceans Canada, NSERC, CFI, the Nova Scotia Freshwater Fisheries Research Cooperative, the Foundation for Conservation of Atlantic Salmon, and the Great Lakes Fisheries Commission. If you are interested in joining our group, please reach out: lennox@dal.ca."
     },
 
     {
@@ -39,7 +38,7 @@ export const people = [
         contact: "hugo@dal.ca",
         role: "Research Associate",
         status: "current",
-        photo: require("../assets/images/people/Hugo2.png"),
+        photo: require("../assets/images/people/hugo2.jpg"),
         bio: "Hugo’s research combines ecology, physiology, and technology to better understand aquatic ecosystems and inform their management. His work focuses the impacts that environmental and anthropocentric stressors have on the movement, behaviour, and health of fish. At the MER group, Hugo contributes to student mentoring, leads lab-based experiments, and helps coordinating fieldwork teams. Through his Adjunct Faculty status at Dalhousie, Hugo also contributes by attracting additional funding for projects. Recent projects span from exploring the sub-lethal impacts of tagging in fish, to understanding the impacts of pesticide applications on non-target aquatic species. Other interests include 3D design, 3D printing, electronics, and software development (e.g., trackyverse.org). If you want to know more about Hugo’s career and work, head over to his website at hugoflavio.com!"
     },
 
@@ -158,7 +157,7 @@ export const people = [
         role: "MSc student",
         status: "current",
         photo: require("../assets/images/people/harder.jpeg"),
-        bio: ""},
+        bio: "Sophia is starting her master’s degree through Dalhousie University and Fisheries and Oceans Canada under the co-supervision of Dr. Robert Lennox and Dr. David Keith. She will be developing a Spatially Explicit Assessment Model (SEAM) for the George’s Bank offshore Sea Scallop fishery. She has a BSc from Dalhousie University in Environmental Science and Biology with a GIS certificate and a graduate certificate in Geospatial Data Analytics from NSCC. Sophia’s previous research focused on food deserts and sustainable land use, though her current research interests include sustainable fisheries management and the impacts of climate change on fish reproduction and abundance."},
 
      {
         name: "Ethan McCarthy",
@@ -191,7 +190,7 @@ export const people = [
         role: "MSc student",
         status: "alumni",
         photo: require("../assets/images/people/ava.jpeg"),
-        bio: ""
+        bio: "Ava is now a PhD student at the University of British Columbia co-supervised by Dr. Lennox"
     },
 
      {
@@ -292,6 +291,14 @@ export const people = [
         status: "alumni",
         photo: require("../assets/images/people/caliyena.png"),
         bio: "Caliyena subsequently completed her MSc in the MER group on Inner Bay of Fundy Atlantic salmon."
+    },
+
+       {
+        name: "Camden Chin",
+        role: "Honours thesis student",
+        status: "current",
+        photo: require("../assets/images/people/camden.jpg"),
+        bio: "Camden Chin is an undergraduate student currently enrolled in his 4th year at Dalhousie and pursuing a Bachelor of Science with Honours in Marine Biology.  He is also completing the Certificate in Animal Behaviour and the Certificate in Aquaculture and the Environment.  Supervised and Mentored by Hugo Flávio with the Lennox Lab, Camden’s honours project studies if implanting juvenile sea lamprey with a novel micro-acoustic transmitter impacts their feeding behaviour on lake trout.  During his undergraduate degree, Camden has completed research on the movement behaviour of endangered Chimney Swifts in Nova Scotia to find natural nesting sites, the movement behaviour of guppies in response to different light conditions, and the vocalization behaviour of green frogs in different microhabitats.  Additionally, he has developed experiences working in hands-on research with live animals in the field and in the lab, and has also gained skills in computer programming (RStudio, Excel and Python).  In spare time, Camden enjoys fishing, playing hockey, rollerblading, and animating.  Camden has a deep passion and love for aquatic animals, with a high interest in movement behaviours and ecology."
     }
 ];
 
