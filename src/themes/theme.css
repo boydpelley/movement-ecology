@@ -307,3 +307,23 @@ h1, h2, h3, h4, h5, .display-1, .display-2, .display-3 {
   .hero__scroll-cue { animation: none; }
   .project-row, .person-card { transition: none; }
 }
+.footer-sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .footer-sponsors { justify-content: flex-end; }
+}
+.sponsor-chip {
+  display: inline-flex;
+  align-items: center;
+}
+.sponsor-chip img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
