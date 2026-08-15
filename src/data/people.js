@@ -265,7 +265,7 @@ export const people = [
         name: "Maeve Cuthbert-Shore",
         role: "Honours thesis student",
         status: "alumni",
-        photo: require("../assets/images/people/rob-7.jpg"),
+        photo: require("../assets/images/people/maeve.png"),
         bio: "Maeve is now a John Dingle Science Intern with Ocean Tracking Network."
     },
 
@@ -299,7 +299,23 @@ export const people = [
         status: "current",
         photo: require("../assets/images/people/camden.jpg"),
         bio: "Camden Chin is an undergraduate student currently enrolled in his 4th year at Dalhousie and pursuing a Bachelor of Science with Honours in Marine Biology.  He is also completing the Certificate in Animal Behaviour and the Certificate in Aquaculture and the Environment.  Supervised and Mentored by Hugo Flávio with the Lennox Lab, Camden’s honours project studies if implanting juvenile sea lamprey with a novel micro-acoustic transmitter impacts their feeding behaviour on lake trout.  During his undergraduate degree, Camden has completed research on the movement behaviour of endangered Chimney Swifts in Nova Scotia to find natural nesting sites, the movement behaviour of guppies in response to different light conditions, and the vocalization behaviour of green frogs in different microhabitats.  Additionally, he has developed experiences working in hands-on research with live animals in the field and in the lab, and has also gained skills in computer programming (RStudio, Excel and Python).  In spare time, Camden enjoys fishing, playing hockey, rollerblading, and animating.  Camden has a deep passion and love for aquatic animals, with a high interest in movement behaviours and ecology."
-    }
+    },
+
+    
+       {
+        name: "Paris Mastrodimitropoulos",
+        role: "Honours thesis student",
+        status: "alumni",
+        photo: require("../assets/images/people/paris.jpeg"),
+        bio: "Paris proceeded to complete her Master's Thesis with MER Group."
+    },
+
+       {
+        name: "Rafael Romero Munhoz",
+        role: "Visiting scholar (UNIFESP, Brazil)",
+        status: "alumni",
+        photo: require("../assets/images/people/rafael.jpeg"),
+        bio: "Rafael is a biologist with a background in marine ecology and biodiversity. He is currently pursuing a Master's degree at the Federal University of São Paulo (Unifesp), in Santos, Brazil, in partnership with Dalhousie University and Dr. Robert Lennox.  His research investigates the movement ecology of the dusky grouper in the southwest Atlantic using acoustic telemetry, conducted through the Laboratory of Marine Ecology and Conservation (LABECMar). Before starting his Master's, he worked at the Fisheries Institute during his undergraduate studies and later joined LABECMar, where he used BRUV and visual census techniques for reef fish monitoring. Looking ahead, in partnership with the Lennox Lab, Rafael is interested in investigating shark connectivity dynamics in the southwest Atlantic, focusing on the coast of São Paulo state." }
 ];
 
 export const currentMembers = people.filter((p) => p.status === 'current');
