@@ -312,7 +312,7 @@ export const people = [
 
     {
         name: "Franziska Bockelmann",
-        role: "Visiting scholar (DTU Aqua, Denmark),
+        role: "Visiting scholar (DTU Aqua, Denmark)",
         status: "alumni",
         photo: require("../assets/images/people/fb.jpeg"),
         bio: "Franziska is a PhD student working in predator-prey dynamics at DTU Aqua, Technical University of Denmark. Under the ProtectFish project, she quantifies predation rates and patterns across Danish and European water systems using PIT telemetry, investigates how habitat structure affects the hunting success of cormorants, and examines monitoring and conservation practices for protected fish species. Franziska completed an external research stay with the MER Group at Dalhousie University, where she worked alongside the lab's researchers and learned new field methods that she has since applied to ongoing projects in Denmark. During her stay, she also received guidance from Dr. Robert Lennox on her PIT telemetry data analysis. She is particularly interested in expanding her work in predator research and behavioral ecology, as well as further developing her expertise in telemetry and animal tracking.",
