@@ -1,15 +1,21 @@
 export const publications = [
   
-   {
+    {
+    listImage: require('../assets/projects/cb12.jpg'),
+    title: "Post-release survival, movement, and marine migration of Smolt-to-Adult Supplemented Atlantic Salmon",
+    citation: "Koopman NC, Lennox RJ, Piczak ML, Stubbings M, Penney S, Batt J, Crossin GT. 2026. Post-release survival, movement, and marine migration of Smolt-to-Adult Supplemented Atlantic Salmon. Journal of Fish Biology 00:00-00.",
+    link: "",
+    date: "2026-08-23"
+  },
+  
+  {
     listImage: require('../assets/projects/debert2.jpg'),
     title: "Predation risk and depth use during migration of Atlantic salmon smolts through a fjord impacted by hydropower discharge",
     citation: "Lennox RJ, Vollset KW, *Berhe S, Haraldsat T. 2026. Predation risk and depth use during migration of Atlantic salmon smolts through a fjord impacted by hydropower discharge. Ecology of Freshwater Fish 00:00-00.",
     link: "",
     date: "2026-08-13"
   },
-  
-
-  
+   
   {
     listImage: require('../assets/projects/ong.jpg'),
     title: "Biogeography of Atlantic Salmon in the Cape Breton Highlands, Canada",
