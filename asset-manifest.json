@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movement-ecology/static/css/main.33991d20.css",
-    "main.js": "/movement-ecology/static/js/main.dd6c225a.js",
+    "main.js": "/movement-ecology/static/js/main.61659506.js",
     "static/media/hero.mp4": "/movement-ecology/static/media/hero.871290bf986802d9a469.mp4",
     "static/media/mack10.mov": "/movement-ecology/static/media/mack10.6b455a70df6d580a0fcd.mov",
     "static/media/caliyena.png": "/movement-ecology/static/media/caliyena.a3d7a7310e99147a673e.png",
@@ -35,7 +35,6 @@
     "static/media/salmon4.PNG": "/movement-ecology/static/media/salmon4.34221b395ca0f4193967.PNG",
     "static/media/wf3.JPG": "/movement-ecology/static/media/wf3.96d3f1e1b8e1856aefc6.JPG",
     "static/media/cb5.JPG": "/movement-ecology/static/media/cb5.e02aaf426fe382032082.JPG",
-    "static/media/josh.JPG": "/movement-ecology/static/media/josh.e02aaf426fe382032082.JPG",
     "static/media/pei1.JPG": "/movement-ecology/static/media/pei1.ca3f2554c9c49b6d9bb0.JPG",
     "static/media/debert1.jpg": "/movement-ecology/static/media/debert1.d2f618257b945dd317f2.jpg",
     "static/media/emma.jpg": "/movement-ecology/static/media/emma.8998d6f02b76c992414e.jpg",
@@ -60,6 +59,7 @@
     "static/media/pei2.JPG": "/movement-ecology/static/media/pei2.c3a7f4d76ba2e5f5991b.JPG",
     "static/media/pei3.JPG": "/movement-ecology/static/media/pei3.76e6bb3b00aa6b99119b.JPG",
     "static/media/ulrick.jpeg": "/movement-ecology/static/media/ulrick.8a70f0edcb4e4347fd95.jpeg",
+    "static/media/roland.JPG": "/movement-ecology/static/media/roland.1de63b12be3ffbaeea9d.JPG",
     "static/media/cb6.JPG": "/movement-ecology/static/media/cb6.10660b606fe90699b8e3.JPG",
     "static/media/cb11.jpg": "/movement-ecology/static/media/cb11.96849849a2697030106a.jpg",
     "static/media/dogfish.jpg": "/movement-ecology/static/media/dogfish.a31a3c02b703515ea9c6.jpg",
@@ -89,6 +89,7 @@
     "static/media/grayling.jpg": "/movement-ecology/static/media/grayling.ead919053057d1d76779.jpg",
     "static/media/snapper.JPG": "/movement-ecology/static/media/snapper.d228ae3b30eb871a5417.JPG",
     "static/media/debert2.jpg": "/movement-ecology/static/media/debert2.45e0326d8cc3267b78e0.jpg",
+    "static/media/fb.jpeg": "/movement-ecology/static/media/fb.6692cb3cf86f836a1244.jpeg",
     "static/media/brownsmolt.jpg": "/movement-ecology/static/media/brownsmolt.0d6431ba1661f511a463.jpg",
     "static/media/nunatsiavut2.jpg": "/movement-ecology/static/media/nunatsiavut2.071854e374f7957440ff.jpg",
     "static/media/rafael.jpeg": "/movement-ecology/static/media/rafael.7d5d58d00d261f9dbc1c.jpeg",
@@ -103,10 +104,10 @@
     "static/media/whales.jpg": "/movement-ecology/static/media/whales.3533bf3f8f52dffa2f81.jpg",
     "index.html": "/movement-ecology/index.html",
     "main.33991d20.css.map": "/movement-ecology/static/css/main.33991d20.css.map",
-    "main.dd6c225a.js.map": "/movement-ecology/static/js/main.dd6c225a.js.map"
+    "main.61659506.js.map": "/movement-ecology/static/js/main.61659506.js.map"
   },
   "entrypoints": [
     "static/css/main.33991d20.css",
-    "static/js/main.dd6c225a.js"
+    "static/js/main.61659506.js"
   ]
 }
