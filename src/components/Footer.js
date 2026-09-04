@@ -8,19 +8,31 @@ import otn from '../assets/images/sponsors/otn-dal.png';
 import parks from '../assets/images/sponsors/parks-can.svg';
 
 const sponsors = [
-  { src: ascf,  alt: 'The Foundation for Conservation of Atlantic Salmon', url: 'https://www.salmonconservation.ca/' },
-  { src: parks, alt: 'Parks Canada',                                       url: 'https://parks.canada.ca/' },
-  { src: glfc,  alt: 'Great Lakes Fishery Comission',                      url: 'https://www.glfc.org/' },
+  { src: ascf,  alt: 'The Foundation for Conservation of Atlantic Salmon', url: 'https://www.salmonconservation.ca/',       large: true },
+  { src: parks, alt: 'Parks Canada',                                       url: 'https://parks.canada.ca/',                 large: true },
+  { src: glfc,  alt: 'Great Lakes Fishery Comission',                      url: 'https://www.glfc.org/',                    large: true },
   { src: cfi,   alt: 'Canada Foundation for Innovation',                   url: 'https://www.innovation.ca/' },
-  { src: dfo,   alt: 'Fisheries and Oceans Canada',                        url: 'https://www.dfo-mpo.gc.ca/index-eng.html' },
+  { src: dfo,   alt: 'Fisheries and Oceans Canada',                        url: 'https://www.dfo-mpo.gc.ca/index-eng.html', maxW: 240 },
   { src: otn,   alt: 'Ocean Tracking Network / Dalhousie University',      url: 'https://oceantrackingnetwork.org/' },
 
 ];
 
 function SponsorLogo({ sponsor }) {
-  const img = <img src={sponsor.src} alt={sponsor.alt} />;
+  const imgStyle = {};
+  
+  if (sponsor.maxW) imgStyle.maxWidth = `${sponsor.maxW}px`;
+
+  const img = (
+    <img
+      src={sponsor.src}
+      alt={sponsor.alt}
+      className={sponsor.large ? 'is-large' : undefined}
+      style={imgStyle}
+      loading="lazy"
+    />
+  );
   return sponsor.url ? (
-    <a className="sponsor-chip" href={sponsor.url} target="_blank" rel="noopener noreferrer">
+    <a className="sponsor-chip" href={sponsor.url} target="_blank" rel="noopener noreferrer" aria-label={sponsor.alt}>
       {img}
     </a>
   ) : (
@@ -59,12 +71,17 @@ export default function Footer() {
             </ul>
           </Col>
         </Row>
-        <hr className="my-4" style={{ borderColor: 'rgba(255,255,255,0.2)' }} />
-        <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
-          <span>© {year} Robert Lennox. All rights reserved.</span>
+
+        <div className="footer-partners">
+          <p className="footer-partners__label">Partners &amp; funders</p>
           <div className="footer-sponsors">
             {sponsors.map((s) => <SponsorLogo key={s.alt} sponsor={s} />)}
           </div>
+        </div>
+
+        <hr className="my-4" style={{ borderColor: 'rgba(255,255,255,0.2)' }} />
+        <div className="small text-center text-md-start">
+          © {year} Robert Lennox. All rights reserved.
         </div>
       </Container>
     </footer>
