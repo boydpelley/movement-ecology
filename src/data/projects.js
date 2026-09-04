@@ -24,7 +24,7 @@ export const projects = [
          {
         name: "Impacts of lampricides on non-target Great Lakes species",
         date: "2026-01-01",
-        people: ["Hugo Flavio", "Aiden Moore", "Melina Gobel"],
+        people: ["Hugo Flávio", "Aiden Moore", "Melina Gobel"],
 
         listImage: require('../assets/projects/nunatsiavut1.jpg'),
         bannerImage: require('../assets/projects/margaree-proj1.jpg'),
@@ -45,7 +45,7 @@ export const projects = [
      {
         name: "Understanding Atlantic whitefish physiology and development to inform future stocking and conservation",
         date: "2026-01-01",
-        people: ["Hugo Flavio", "Ethan McCarthy", "Ben Wetherell", "Robert Lennox"],
+        people: ["Hugo Flávio", "Ethan McCarthy", "Ben Wetherell", "Robert Lennox"],
 
         listImage: require('../assets/projects/wf1.jpg'),
         bannerImage: require('../assets/projects/wf3.JPG'),
