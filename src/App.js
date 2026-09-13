@@ -6,8 +6,6 @@ import Home from './pages/Home';
 import OurGroup from './pages/OurGroup';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
-import About from './pages/About';
-import Contact from './pages/Contact';
 import Publications from './pages/Publications';
 
 export default function App() {
@@ -25,9 +23,6 @@ export default function App() {
           <Route path="/projects/:projectSlug" element={<ProjectDetail />} />
           
           <Route path="/publications" element={<Publications />} />
-          
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
 
           <Route path="*" element={<Home />} />
         </Routes>

@@ -257,7 +257,7 @@ export const publications = [
   },
 
       {listImage: require('../assets/projects/minnows.JPG'),
-    citation: "Lennox RJ, Flavio H*, Mastrodimitropoulos P,* Cyr K, Deng ZD, Cooke SJ, Piczak ML*. 2024. Microelectronic tags for movement ecology of small aquatic organisms. Fisheries 00:000-000.",
+    citation: "Lennox RJ, Flávio H*, Mastrodimitropoulos P,* Cyr K, Deng ZD, Cooke SJ, Piczak ML*. 2024. Microelectronic tags for movement ecology of small aquatic organisms. Fisheries 00:000-000.",
     title: "Microelectronic tags for movement ecology of small aquatic organisms",
     link: "https://academic.oup.com/fisheries/article/50/5/209/8069496",
     date: "2024-02-13"

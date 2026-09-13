@@ -36,8 +36,6 @@ export default function NavBar() {
             <Nav.Link as={NavLink} to="/our-group">Personnel</Nav.Link>
             <Nav.Link as={NavLink} to="/projects">Research</Nav.Link>
             <Nav.Link as={NavLink} to="/publications">Publications</Nav.Link>
-            <Nav.Link as={NavLink} to="/about">About Us</Nav.Link>
-            <Nav.Link as={NavLink} to="/contact">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
