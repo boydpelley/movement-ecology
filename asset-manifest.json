@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.33991d20.css",
-    "main.js": "/static/js/main.9e4f38c5.js",
+    "main.css": "/static/css/main.1796bd60.css",
+    "main.js": "/static/js/main.1831f4f2.js",
     "static/media/hero.mp4": "/static/media/hero.871290bf986802d9a469.mp4",
     "static/media/mack10.mov": "/static/media/mack10.6b455a70df6d580a0fcd.mov",
     "static/media/caliyena.png": "/static/media/caliyena.a3d7a7310e99147a673e.png",
@@ -100,14 +100,20 @@
     "static/media/crappie2.JPG": "/static/media/crappie2.9a68754403a44f9b0ab5.JPG",
     "static/media/danube.png": "/static/media/danube.5d451cf7b6a541f09b90.png",
     "static/media/camden.jpg": "/static/media/camden.76915ce79d6764cac5d2.jpg",
+    "static/media/ascf.png": "/static/media/ascf.9072087dc79a4e6ffa25.png",
+    "static/media/glfc.png": "/static/media/glfc.f8aad2a9c78f3c4b59c7.png",
+    "static/media/dfo.webp": "/static/media/dfo.4054b585cc36c89a623e.webp",
+    "static/media/otn-dal.png": "/static/media/otn-dal.1f814a43da6b5521b9df.png",
     "static/media/pelley.jpg": "/static/media/pelley.42d0fbe08e35865a6a72.jpg",
+    "static/media/cfi.svg": "/static/media/cfi.b5bf99c88ff84746e461cfbb488fe209.svg",
     "static/media/whales.jpg": "/static/media/whales.3533bf3f8f52dffa2f81.jpg",
+    "static/media/parks-can.svg": "/static/media/parks-can.941004fed073074ba0fadaf5c6b06d68.svg",
     "index.html": "/index.html",
-    "main.33991d20.css.map": "/static/css/main.33991d20.css.map",
-    "main.9e4f38c5.js.map": "/static/js/main.9e4f38c5.js.map"
+    "main.1796bd60.css.map": "/static/css/main.1796bd60.css.map",
+    "main.1831f4f2.js.map": "/static/js/main.1831f4f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.33991d20.css",
-    "static/js/main.9e4f38c5.js"
+    "static/css/main.1796bd60.css",
+    "static/js/main.1831f4f2.js"
   ]
 }
