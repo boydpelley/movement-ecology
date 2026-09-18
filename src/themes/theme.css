@@ -347,3 +347,73 @@ h1, h2, h3, h4, h5, .display-1, .display-2, .display-3 {
 .sponsor-chip:hover img {
   opacity: 0.75;
 }
+
+/******************************************************************************
+    MOBILE
+******************************************************************************/
+/* --- Global mobile guards --- */
+img, video { max-width: 100%; }
+
+/* --- Navbar brand: let it shrink and wrap instead of overflowing --- */
+.site-nav .navbar-brand {
+  white-space: normal;
+  line-height: 1.15;
+  max-width: calc(100% - 64px); /* leave room for the toggle */
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .site-nav .navbar-brand { font-size: 1.15rem; max-width: none; }
+}
+
+/* Solid background whenever the mobile menu is open */
+.site-nav .navbar-collapse.show,
+.site-nav .navbar-collapse.collapsing {
+  background-color: var(--brand-dark);
+}
+
+/* --- Stacked cards on phones --- */
+@media (max-width: 767.98px) {
+  .project-row,
+  .publication-row {
+    flex-direction: column;
+    gap: 0;
+    border-left-width: 1px;
+    border-top: 5px solid var(--brand-teal);
+  }
+  .project-row:hover { border-left-color: #e6ebee; border-top-color: var(--brand-orange); }
+
+  .project-row__img,
+  .publication-row__img {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .project-row__body,
+  .publication-row__body { padding: 1rem; }
+
+  .project-row__title,
+  .publication-row__title { font-size: 1.15rem; line-height: 1.3; }
+}
+
+/* --- Footer sponsor strip --- */
+@media (max-width: 575.98px) {
+  .footer-sponsors {
+    padding: 1rem;
+    gap: 1rem 1.25rem;
+    border-radius: 10px;
+  }
+  .sponsor-chip { height: 44px; }
+  .sponsor-chip img { max-width: 130px; }
+}
+
+/* --- Misc mobile sizing --- */
+@media (max-width: 767.98px) {
+  .page-offset { padding-top: 64px; }
+  .hero { height: 100svh; min-height: 480px; }
+  .collection-carousel .carousel-item img,
+  .collection-carousel .carousel-item video { height: 42vh; }
+  .project-banner { height: 38vh; min-height: 240px; }
+}

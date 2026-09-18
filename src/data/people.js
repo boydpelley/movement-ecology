@@ -219,7 +219,7 @@ export const people = [
      {name: "Josh Roland",
         role: "MSc",
         status: "alumni",
-        photo: require("../assets/images/people/roland.JPG"),
+        photo: require("../assets/images/people/roland.jpg"),
         bio: "Josh now works with Parks Canada in Highlands National Park."
     },
 
